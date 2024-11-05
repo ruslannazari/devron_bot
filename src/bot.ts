@@ -8,6 +8,18 @@ const {
 
 export const bot = new Bot(token)
 
+bot.api.setMyCommands([
+    {
+        command: "start",
+        description: "Старт"
+    },
+    {
+        command: "greeting",
+        description: "Приветсвие ботом"
+    },
+])
+
+
 bot.command("start", async (ctx) => {
     await ctx.reply("Я бот Рона и развиваюсь по мере его знаний😁")
 })
