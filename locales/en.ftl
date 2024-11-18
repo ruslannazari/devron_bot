@@ -1,0 +1,9 @@
+commandStart = Start
+commandGreeting = Greeting by a bot
+commandLanguage = Choose a language
+startText = I am Ron's bot and I am developing according to his knowledge😁
+greetingText = Hi
+greetingRonText = Hi Ron
+langSetComm = Language was been changed.
+langText = Select a language:
+lng = English
