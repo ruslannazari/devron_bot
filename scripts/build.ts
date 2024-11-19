@@ -1,5 +1,5 @@
 import { bot } from '../src/bot'
-
+import "../commands/all"
 const {
     VERCEL_URL = 'localhost',
     VERCEL_BRANCH_URL: hostname = VERCEL_URL,
