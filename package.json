@@ -11,13 +11,13 @@
   "description": "",
   "dependencies": {
     "@grammyjs/i18n": "^1.1.2",
+    "@vercel/node": "^3.2.25",
     "dotenv": "^16.4.5",
-    "grammy": "^1.31.0"
-  },
-  "devDependencies": {
+    "grammy": "^1.31.0",
     "@types/node": "^22.8.7",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.6.3"
-  }
+  },
+  "devDependencies": {}
 }
