@@ -14,7 +14,7 @@ export const bot = new Bot<MyContext>(token)
 
 const i18n = new I18n<MyContext>({
     defaultLocale: "ru",
-    directory: join(__dirname, "../../locales"),
+    directory: join(__dirname, "../locales"),
     useSession: true,
 });
 
