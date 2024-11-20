@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "@grammyjs/i18n": "^1.1.2",
+    "@vercel/node": "^3.2.25",
     "dotenv": "^16.4.5",
     "grammy": "^1.31.0"
   },
