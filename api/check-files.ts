@@ -3,7 +3,7 @@ import { join } from "path";
 import { VercelRequest, VercelResponse } from '@vercel/node';
 
 export default function handler(req: VercelRequest, res: VercelResponse): void {
-    const localesPath = join(__dirname, "../../locales");
+    const localesPath = join(__dirname, "../locales");
 
     try {
         // Читаем содержимое директории locales
