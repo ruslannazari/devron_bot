@@ -27,6 +27,3 @@ bot.use(
 );
 
 bot.use(i18n);
-bot.on("message", async (ctx) => {
-    await ctx.reply(ctx.message.text as string)
-})
