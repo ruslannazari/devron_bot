@@ -1,8 +1,5 @@
 import { bot } from '../src/bot'
-import "../commands/all"
-bot.on("message", async (ctx) => {
-    await ctx.reply(ctx.message.text!)
-})
+
 const {
     VERCEL_URL = 'localhost',
     VERCEL_BRANCH_URL: hostname = VERCEL_URL,
